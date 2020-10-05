@@ -9,35 +9,39 @@
 </head>
 <body>
 
-  <div>
-    <strong>Twenty Thousand Leagues Under the Sea</strong>
-    <p><span class="by">by</span> <span>Jules Verne</span></p>
-  </div>
+  <header role="banner">
+    <div>
+      <strong>Twenty Thousand Leagues Under the Sea</strong>
+      <p><span class="by">by</span> <span>Jules Verne</span></p>
+    </div>
+  </header>
 
-  <div>
+  <main role="main">
     <div>
       <div>
         <h1>Chapter XVIII</h1>
         <h2>The Poulps</h2>
       </div>
       <div>
-        <ul>
-          <li>
-            <a href="chapter-xvii.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#prev"></use></svg></i>
-            </a>
-          </li>
-          <li>
-            <a href="contents.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#contents"></use></svg></i>
-            </a>
-          </li>
-          <li>
-            <a href="chapter-xix.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#next"></use></svg></i>
-            </a>
-          </li>
-        </ul>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="chapter-xvii.html" aria-label="Read more about this chapter">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#prev"></use></svg></i>
+              </a>
+            </li>
+            <li>
+              <a href="contents.html" aria-label="Check the contents here">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#contents"></use></svg></i>
+              </a>
+            </li>
+            <li>
+              <a href="chapter-xix.html" aria-label="Read more about this other chapter">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#next"></use></svg></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
     <div>
@@ -110,32 +114,37 @@
       <p>“I owed myself this revenge!” said the Captain to the Canadian.</p>
       <p>Ned bowed without replying. The combat had lasted a quarter of an hour. The monsters, vanquished and mutilated, left us at last, and disappeared under the waves. Captain Nemo, covered with blood, nearly exhausted, gazed upon the sea that had swallowed up one of his companions, and great tears gathered in his eyes.</p>
     </div>
+    </main>
+
+    <footer role="contentinfo">
     <div>
       <div>
+        <nav>
         <ul>
           <li>
-            <a href="chapter-xvii.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#prev"></use></svg></i>
+            <a href="chapter-xvii.html" aria-label="Read more about this chapter">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#prev"></use></svg></i>
             </a>
           </li>
           <li>
-            <a href="contents.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#contents"></use></svg></i>
+            <a href="contents.html" aria-label="Check the contents here">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#contents"></use></svg></i>
             </a>
           </li>
           <li>
-            <a href="chapter-xix.html">
-              <i class="icon"><svg><use xlink:href="images/icons.svg#next"></use></svg></i>
+            <a href="chapter-xix.html" aria-label="Read more about this other chapter">
+              <i class="icon" role="presentation"><svg><use xlink:href="images/icons.svg#next"></use></svg></i>
             </a>
           </li>
         </ul>
+      </nav>
       </div>
     </div>
-  </div>
 
   <div>
     <small>Twenty Thousand Leagues Under the Sea © Jules Verne, 1870.</small>
   </div>
+</footer>
 
 </body>
 </html>
